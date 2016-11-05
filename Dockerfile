@@ -14,7 +14,7 @@ MAINTAINER Nilesh <nilesh@cloudgeni.us>
 RUN  docker-php-ext-install mbstring
 
 RUN  apt-get update && apt-get install -y \
-         libmcrypt-dev mysql-client \
+         libmcrypt-dev mysql-client graphviz \
      && docker-php-ext-install mcrypt
 
 RUN  docker-php-ext-install zip
