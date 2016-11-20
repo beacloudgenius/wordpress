@@ -1,3 +1,7 @@
+# DEPRECATED
+
+    migrated to docker-cg-migration
+
 ### Wordpress
 
 This docker image extends the Wordpress library image.
