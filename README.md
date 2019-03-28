@@ -1,7 +1,3 @@
-# DEPRECATED
-
-    migrated to docker-cg-migration
-
 ### Wordpress
 
 This docker image extends the Wordpress library image.
@@ -12,3 +8,7 @@ This docker image extends the Wordpress library image.
     docker build -t cloudgenius/wordpress .
 
     docker push cloudgenius/wordpress
+
+
+
+migrated to docker-cg-migration
